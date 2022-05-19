@@ -10,7 +10,9 @@ namespace CQRS_Write_Domain.People
     public class PersonRenamedEvent : Event
     {
         public string Name { get; }
-        public PersonRenamedEvent(int aggregateId, string name): base()
+      
+
+        public PersonRenamedEvent(int aggregateId,string name): base()
         {
             AggregateId = aggregateId;
             Name = name;

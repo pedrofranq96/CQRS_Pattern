@@ -42,6 +42,7 @@ namespace CQRS_read_Infrastructure.Persistence.People
             Age = age;
         }
 
+
         public override string ToString()
         {
             return $"{PersonClass}:[Class]{PersonClass}, [Name]{Name}, [Age]{Age}";
